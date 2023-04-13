@@ -1,0 +1,44 @@
+header {
+  top: 0px;
+  width: 1300px;
+  padding-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  z-index: 2;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.btns_header {
+  display: flex;
+  gap: 31px;
+}
+
+.nav {
+  display: flex;
+  gap: 100px;
+}
+
+.navlink {
+  color: white;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.navlink:hover {
+  color: #ff2d2d;
+}
+
+.class {
+  color: green;
+}
+
+.ikon {
+  cursor: pointer;
+}
+
+.logo {
+  width: 40px;
+}
